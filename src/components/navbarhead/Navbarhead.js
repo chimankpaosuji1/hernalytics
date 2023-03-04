@@ -74,9 +74,9 @@ function Navbarhead() {
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
-            <a href='#'>
+            
               <button className="vvd"><span>SIGN UP</span></button>
-            </a>
+            
           </span>
         </Navbar.Collapse>
       </Container>

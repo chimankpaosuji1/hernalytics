@@ -13,12 +13,11 @@ const Banner = () => {
                     Become a more informed and active citizen by accessing and engaging on just the information you need on the coming elections.
                     </p>
                     <div className="button">
-                        <a href="#" target="_blank" >
+                        
                             <button type="submit" className="but1">SIGN UP</button>
-                        </a>
-                        <a href="#" target="_blank" >
+                        
                             <button type="submit" className="but2">GET ELECTION UPDATE</button>
-                        </a>
+                        
                     </div>
                     
                     </Col>
