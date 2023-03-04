@@ -1,6 +1,4 @@
-/* eslint-disable react-hooks/exhaustive-deps */
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import { useEffect, useRef } from "react";
+
 import { Col, Container, Row } from "react-bootstrap";
 import map from "../../assets/img/map.png";
 import read from "../../assets/img/read.png";

@@ -1,9 +1,6 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container, Dropdown } from "react-bootstrap";
 import logo from '../../assets/img/logo.png';
-// import lunchpad from '../../assests/svg/dropdown/lunchpad.svg';
-// import credit from '../../assests/svg/dropdown/credit.svg';
-// import airdrop from '../../assests/svg/dropdown/airdrop.svg';
 import './navbarhead.css';
 
 function Navbarhead() {
