@@ -1,0 +1,67 @@
+.data {
+  padding: 100px 0 100px 0;
+  background: #1B1F30;
+  /* height: 100px; */
+}
+
+.data .col1 h1 {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 43px;
+
+  color: #FFFFFF;
+}
+
+.data .col1 h1 span {
+  font-family: 'Jost';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+}
+
+.data .col2  {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.data .col2 h2 {
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 35px;
+/* identical to box height */
+
+text-align: right;
+
+color: #FFFFFF;
+}
+
+.data .col2 div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.data .col2 div span {
+  width: 200px;
+  padding: 0.5rem;
+  background: #1C2031;
+  border: 1px solid #252B46;
+  border-radius: 6px;
+
+  font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+
+color: #C6C7CB;
+}
