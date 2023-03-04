@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container, Dropdown } from "react-bootstrap";
 import logo from '../../assets/img/logo.png';
+import {Link} from "react-router-dom";
 import './navbarhead.css';
 
 function Navbarhead() {
@@ -56,9 +57,10 @@ function Navbarhead() {
                     <div className='drops'>Election Day Live Updates</div>
                   </div>
                 </Dropdown.Item>
-                <Dropdown.Item href="/postelection" className={activeLink === 'whoweare' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('whoweare')}>
-                  <div className='drop'>                    
-                    <div className='drops'>Post- Election Analysis</div>
+                <Dropdown.Item className={activeLink === 'whoweare' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('whoweare')}>
+                  <div className='drop'> 
+                  <Link to="/postelection" className='drops'> Post- Election Analysis</Link>                 
+                    
                   </div>
                 </Dropdown.Item>
               </Dropdown.Menu>
