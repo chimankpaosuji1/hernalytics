@@ -74,7 +74,7 @@ function Navbarhead() {
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
-            <a href='https://ultainfinityairdropandbounty.com/' target="_blank">
+            <a href='#'>
               <button className="vvd"><span>SIGN UP</span></button>
             </a>
           </span>
