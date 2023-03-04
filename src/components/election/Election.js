@@ -1,7 +1,8 @@
 
 import { Col, Container, Row } from "react-bootstrap";
 import countdown from "../../assets/img/countdown.png";
-import election from "../../assets/img/election.png"
+import election from "../../assets/img/election.png";
+import {Link} from "react-router-dom";
 import "./election.css";
 
 const Election = () => {
@@ -24,7 +25,10 @@ const Election = () => {
 
             <div className="button">
               <button className="but1">Election Day Live Updates</button>
+
+              <Link to="/postelection">
               <button className="but2">Post-Election Information</button>
+              </Link>
             </div>
 
           </Col>
