@@ -16,8 +16,10 @@ const Data = () => {
         </Row>
 
         <Row className='align-items-center justify-content-center'>
-          <Col size={12} className="col2">
+          <Col size={12} md={6} className="col2">
             <h2>Presidential Race</h2>
+            </Col> 
+            <Col size={12} md={6} className="col2"> 
             <form className="div">
               <select className="span" name="Election Data">
                 <option value="election">Election Data</option>

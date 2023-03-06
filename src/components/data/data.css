@@ -48,11 +48,12 @@ color: #FFFFFF;
   align-items: center;
   justify-content: center;
   gap: 10px;
+  width: 100%;
 }
 
 .data .col2 .div .span {
-  width: 200px;
-  padding: 0.5rem;
+  width: 100%;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
   background: #1C2031;
   border: 1px solid #252B46;
   border-radius: 6px;
@@ -65,3 +66,4 @@ line-height: 20px;
 
 color: #C6C7CB;
 }
+

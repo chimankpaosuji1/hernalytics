@@ -39,7 +39,7 @@ function Navbarhead() {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="/#whoweare" className={activeLink === 'whoweare' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('whoweare')}>ABOUT US</Nav.Link>          
+            <Nav.Link className={activeLink === 'whoweare' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('whoweare')}>ABOUT US</Nav.Link>          
 
             <Dropdown>
               <Dropdown.Toggle variant="none" id="dropdown-basic" className="wealth">OUR COMMUNITIES
@@ -52,7 +52,7 @@ function Navbarhead() {
               <Dropdown.Toggle variant="none" id="dropdown-basic" className="wealth">ELECTION DATA
               </Dropdown.Toggle>
               <Dropdown.Menu>
-                <Dropdown.Item href="/lunchpad" className={activeLink === 'whoweare' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('whoweare')}>
+                <Dropdown.Item className={activeLink === 'whoweare' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('whoweare')}>
                   <div className='drop'>                    
                     <div className='drops'>Election Day Live Updates</div>
                   </div>
@@ -68,11 +68,11 @@ function Navbarhead() {
 
 
 
-            <Nav.Link href="/#crypto" className={activeLink === 'crypto' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('crypto')}>E-BUDDY
+            <Nav.Link className={activeLink === 'crypto' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('crypto')}>E-BUDDY
             </Nav.Link>
-            <Nav.Link href="/#crypto" className={activeLink === 'crypto' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('crypto')}>VEO PLATFORM
+            <Nav.Link className={activeLink === 'crypto' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('crypto')}>VEO PLATFORM
             </Nav.Link>
-            <Nav.Link href="/#crypto" className={activeLink === 'crypto' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('crypto')}>LOGIN
+            <Nav.Link className={activeLink === 'crypto' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('crypto')}>LOGIN
             </Nav.Link>
           </Nav>
           <span className="navbar-text">
