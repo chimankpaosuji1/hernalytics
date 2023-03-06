@@ -11,31 +11,52 @@ const Data = () => {
         <Row className='align-items-center justify-content-center'>
           <Col size={12} className='col1'>
             <h1>Post Election Data <span>PRESIDENTIAL / 2023</span></h1>
-          </Col>         
+          </Col>
 
-        </Row>   
+        </Row>
 
         <Row className='align-items-center justify-content-center'>
           <Col size={12} className="col2">
             <h2>Presidential Race</h2>
-            <div>
-                <span>Election</span>
-                <span>Presidential</span>
-                <span>2023</span>
-            </div>
+            <form className="div">
+              <select className="span" name="Election Data">
+                <option value="election">Election Data</option>
+                <option value="election">Pre-Election</option>
+                <option value="data">Election Day Live Update</option>
+                <option value="election">Post-Election Analysis</option>
+              </select>
+              <select className="span" name="Presidential">
+                <option value="election">Presidential</option>
+                <option value="election">Gubanatorial</option>
+                <option value="data">Senate</option>
+                <option value="election">House of Representatives</option>
+              </select>
+              <select className="span" name="2023">
+                <option value="election">2023</option>
+                <option value="election">2019</option>
+                <option value="data">2015</option>
+                <option value="election">2011</option>
+                <option value="election">2007</option>
+                <option value="election">2003</option>
+                <option value="election">1999</option>
+                <option value="election">1995</option>
+                <option value="election">1991</option>
+                <option value="election">1987</option>
+              </select>
+            </form>
           </Col>
-          </Row>  
+        </Row>
 
-           <Row className='align-items-center justify-content-center'>
+        <Row className='align-items-center justify-content-center'>
           <Col size={12} className="col2">
-           <img src={map} alt="map"/>
+            <img src={map} alt="map" />
           </Col>
-          </Row>
-          <Row className='align-items-center justify-content-center'>
+        </Row>
+        <Row className='align-items-center justify-content-center'>
           <Col size={12} className="col2">
-           <img src={read} alt="read"/>
+            <img src={read} alt="read" />
           </Col>
-          </Row>
+        </Row>
       </Container>
     </section>
   );

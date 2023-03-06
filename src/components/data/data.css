@@ -43,14 +43,14 @@ text-align: right;
 color: #FFFFFF;
 }
 
-.data .col2 div {
+.data .col2 .div {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 10px;
 }
 
-.data .col2 div span {
+.data .col2 .div .span {
   width: 200px;
   padding: 0.5rem;
   background: #1C2031;
